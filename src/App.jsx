@@ -6,9 +6,11 @@ import About from './pages/About';
 import Services from './components/Services';
 import Skills from './components/Skills';
 import Experience from './components/Experience';
+import Education from './components/Education';
 import TechStack from './components/TechStack';
 import Portfolio from './pages/Portfolio';
 import Contact from './pages/Contact';
+import ProjectDetails from './pages/ProjectDetails';
 
 function MainPage() {
   return (
@@ -19,6 +21,7 @@ function MainPage() {
       <Services />
       <Skills />
       <Experience />
+      <Education />
       <Portfolio />
       <Contact />
     </>
@@ -31,6 +34,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<MainPage />} />
+          <Route path="project/:id" element={<ProjectDetails />} />
         </Route>
       </Routes>
     </Router>

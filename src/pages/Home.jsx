@@ -6,7 +6,7 @@ import RevealOnScroll from '../components/RevealOnScroll';
 export default function Home() {
   return (
     <PageTransition>
-      <div id="home" className="container mx-auto px-6 pt-16 lg:pt-24 pb-20">
+      <div id="home" className="container mx-auto px-6 pt-28 lg:pt-24 pb-20">
         <div className="grid lg:grid-cols-2 gap-8 items-center">
           <div className="flex flex-col gap-10 lg:gap-12">
             <RevealOnScroll>

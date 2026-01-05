@@ -34,6 +34,13 @@ export default function Contact() {
                       <a className="text-lg font-semibold text-gray-900 dark:text-white hover:text-primary dark:hover:text-primary transition-colors" href="tel:+8801650230536">+880 1650 230 536</a>
                     </div>
                   </div>
+                  <div className="flex items-center gap-4 border-b border-gray-200 dark:border-gray-700 pb-8">
+                    <span className="devicon-whatsapp-plain text-gray-500 dark:text-gray-400 text-3xl"></span>
+                    <div>
+                      <p className="text-sm text-gray-500 dark:text-gray-400">WhatsApp</p>
+                      <a className="text-lg font-semibold text-gray-900 dark:text-white hover:text-primary dark:hover:text-primary transition-colors" href="https://wa.me/8801650230536" target="_blank" rel="noopener noreferrer">+880 1650 230 536</a>
+                    </div>
+                  </div>
                   <div className="flex items-center gap-4">
                     <span className="material-symbols-outlined text-gray-500 dark:text-gray-400 text-3xl">location_on</span>
                     <div>

@@ -1,0 +1,38 @@
+export const projects = [
+    {
+        id: 1,
+        title: 'E-Commerce Platform',
+        category: 'Full Stack Service',
+        img: 'https://lh3.googleusercontent.com/aida-public/AB6AXuDPM_D3KMV6EfMLacgz1BpG4A0hX1XPdGe9X4GJ_hpoLQfqxqvkUlprMk7cr-oxLkCEpiXBIqVthHpuXJzCCIROuNzNIiohtcnVVbivQxDF9vEGwinHc9lleNm3xD5NIGuqu6U5H5vVHx8h3-woQlS8giucvrDUWIz-uXirUAn-evn5s1nUTnjS2K6P5xtJOJ4_WxpnAqVMhpLZ2d6xcx4bfyXWZRuNIYAWdadQHKXe6ndn5Evq8b5II4AmdQHlI7XdpZvb25rs4fM',
+        description: 'A modern e-commerce platform with product management, cart functionality, and secure payments using MERN Stack.',
+        stack: ['React', 'Node.js', 'Express', 'MongoDB', 'Stripe'],
+        liveLink: '#',
+        repoLink: 'https://github.com/fardin-sojon',
+        challenges: 'Handling complex state management for the shopping cart and ensuring secure payment processing were the main challenges.',
+        improvements: 'Adding a wishlist feature and personalized product recommendations based on user history.',
+    },
+    {
+        id: 2,
+        title: 'Task Management App',
+        category: 'Productivity Tool',
+        img: 'https://lh3.googleusercontent.com/aida-public/AB6AXuBSb0nYjKOgXJ508fIf8PibvXrp32lcKRNMjoHbleEYNg5b4hodM8pgnmPIUSLoO_699_MpFKa8bmnP8oG0nl0L-pJydnBHLVZzNrqY48taWMBwr3pGJlxQqE6bHP4XmTp2Sub2RjAMEjSQxoxY9XTje2NtvTeY2LyoRfW99TJxYHdeLCZcAQdQXf_kZVXaxfVadOVY4rxaj-UcSPAjouLlwaXqDasvqrgukZka-0HKtNp2tpXZKDgg_IhhJXTL1L9Ea9GCIrlPK-0',
+        description: 'Collaborative task manager with real-time updates, drag-and-drop interface, and team collaboration features.',
+        stack: ['React', 'Firebase', 'Tailwind CSS', 'Redux'],
+        liveLink: '#',
+        repoLink: 'https://github.com/fardin-sojon',
+        challenges: 'Implementing real-time updates without performance lag and managing drag-and-drop state synchronization.',
+        improvements: 'Integrating calendar view and Slack notifications for task updates.',
+    },
+    {
+        id: 3,
+        title: 'Social Media Dashboard',
+        category: 'Analytics Dashboard',
+        img: 'https://lh3.googleusercontent.com/aida-public/AB6AXuBZlPPusIDrQFG4i72bLOvy-6up3G4eKDEH9uMTIwy1jRCcn3nVdVn91M-brxPCwkpgWrfJOKRSTS1UdKIO-0GjzERfRSlpqNI6oz3mVFUIEGJpsSoG6EgTw_UDg7tWIYeMfNV0Zmtnn5W46xfM5DX14I6P6QJlP7yl6AUgUDV3fXOh9J9WFPVQv9sgbSi5OnVCYYkbC5g9drfaem2aGYTQ7gaFD4InzksztsZelVvPbFiAdAunn_Z2-0JxWPWGmbA76xQhzrXQx54',
+        description: 'Comprehensive analytics dashboard for social media metrics built with Next.js and Tailwind CSS.',
+        stack: ['Next.js', 'Tailwind CSS', 'Chart.js', 'PostgreSQL'],
+        liveLink: '#',
+        repoLink: 'https://github.com/fardin-sojon',
+        challenges: 'Visualizing large datasets efficiently and creating a responsive layout for complex charts.',
+        improvements: 'Adding export functionality for reports and integrating more social media platforms.',
+    }
+];
